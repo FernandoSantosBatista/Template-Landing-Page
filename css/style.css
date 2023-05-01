@@ -1,3 +1,81 @@
-body {
-    background-color: #600818;
-}
+   
+    /* Página Inicial */
+    
+   .background {
+      background-color: #333333
+    }
+        
+    .card-p {
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .contact {
+      font-family: Bebas_Neue;
+    }
+
+    .background-orange {
+      background-color: #F47D08;
+      font-family: Bebas_Neue;
+    }
+
+    .text-orange {
+      color: #FFC300;
+      font-family: Bebas_Neue;
+    }
+
+    /* Nav Bar */
+
+    .nav-link {
+      color: #fff;
+      font-size: 20px;
+      font-family: Bebas_Neue;
+    }
+
+    /* Seção Destaque */
+
+    .banner {
+      background-image: url('../images/banner.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 600px;
+      /* Ajuste a altura do banner conforme sua preferência */
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      justify-content: center;
+      background-position: center;
+    }
+
+
+    .banner h2 {
+      font-size: 3rem;
+      /* Ajuste o tamanho da fonte do título conforme sua preferência */
+      color: #fff;
+      margin-bottom: 2rem;
+      font-family: Bebas_Neue;
+      color: #fff;
+      font-size: 60px;
+    }
+
+    .banner p {
+      font-size: 1.5rem;
+      /* Ajuste o tamanho da fonte do parágrafo conforme sua preferência */
+      color: #fff;
+      font-family: 'Lobster Two', cursive;
+      font-size: 30px;
+    }
+
+    @media (max-width: 756px) {
+      .banner {
+        background-attachment: scroll;
+        background-position: center top;
+      }
+    }
+  
+    /* Pagina Cardápio */
+    
+     .list-group-item {
+            background-color: black;
+            border: #000000;
+            color: #FFC300;
+     }
